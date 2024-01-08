@@ -13,6 +13,12 @@ When user enter YouTube URL link, It need to show the thumbnail image of releven
 5. Display the link which is get from Step 4.
 
 
+### Live link
+
+https://mushkir.github.io/youtube-thumbnail-downloader-app/
+
+
+
 ## Technologies and Libraries Used and Learned
 
 | s.no | Technologies and Libraries Used                                                  |
@@ -23,9 +29,11 @@ When user enter YouTube URL link, It need to show the thumbnail image of releven
 
 ### Screenshots
 
-[Screenshot-01](./screenshots//Screenshot-01.png)
+![Screenshot-01](./screenshots//Screenshot-01.png)
 
-[Screenshot-02](./screenshots/Screenshot-02.png)
+
+
+![Screenshot-02](./screenshots/Screenshot-02.png)
 
 ### TODOs:
 
