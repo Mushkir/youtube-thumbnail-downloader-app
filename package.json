@@ -2,6 +2,7 @@
   "name": "youtube-thumbnail-downloader",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://github.com/Mushkir/youtube-thumbnail-downloader-app",
   "type": "module",
   "scripts": {
     "dev": "vite",
