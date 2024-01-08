@@ -15,8 +15,8 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     />
-    <script type="module" crossorigin src="/youtube-thumbnail-downloader-app/assets/index-vLi06EYB.js"></script>
-    <link rel="stylesheet" crossorigin href="/youtube-thumbnail-downloader-app/assets/index-o-sCfvjP.css">
+    <script type="module" crossorigin src="/youtube-thumbnail-downloader-app/assets/index-vXiV9NX9.js"></script>
+    <link rel="stylesheet" crossorigin href="/youtube-thumbnail-downloader-app/assets/index-X5isrl44.css">
   </head>
   <body class="font-Sen bg-gradient-to-r from-[#0F1035] to-[#365486] relative">
     <!-- Header -->
@@ -45,21 +45,28 @@
       </p>
 
       <!-- Input and Button -->
-      <div class="max-w-2xl mx-auto mt-20 flex flex-col items-center space-y-8">
-        <input
+      <form
+        class="max-w-2xl mx-auto mt-20 flex flex-col items-center space-y-8"
+        method="get"
+        id="urlForm"
+      >
+        <div class="w-full">
+          <input
           type="url"
           class="w-full p-5 rounded-md outline-none"
           name="youtube-url-input"
           id="youtube-url-input"
           placeholder="Enter the YouTube URL"
+          value="https://www.youtube.com/watch?v=ehhIzVYD-M8"
           required
         />
+        </div>
         <button
           class="bg-[#DCF2F1] px-5 py-2 w-36 rounded-md hover:bg-[#365486] hover:transition 500 hover:text-[#DCF2F1]"
         >
           Click
         </button>
-      </div>
+      </form>
 
       <!-- Thumbnail Viewer -->
       <div class="mt-20">
