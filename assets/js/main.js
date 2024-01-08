@@ -49,7 +49,7 @@ validate.onSuccess((e) => {
   const thumbnailImageEl = document.createElement("img")
   thumbnailImageEl.src = thumbnailURL
   thumbnailImageEl.classList.add("w-[1000px]", "h-[1000px]", "object-cover", "mx-auto")
-  
+  thumbnailViewer.appendChild(thumbnailImageEl)
 
 
 //   Download Button
@@ -59,7 +59,7 @@ downloadButtonEl.download = `Thumbnail Image ${0 + 1}`;
 downloadButtonEl.textContent = "Download Thumbnail";
 downloadButtonEl.classList.add("text-white"); 
 // thumbnailViewer.appendChild(downloadButtonEl);
-thumbnailViewer.appendChild(thumbnailImageEl)
+
   
 
   urlFormEl.reset()
