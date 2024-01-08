@@ -60,13 +60,10 @@ downloadButtonEl.textContent = "Download Thumbnail";
 downloadButtonEl.classList.add("text-white"); 
 // thumbnailViewer.appendChild(downloadButtonEl);
 
-  
-
-  urlFormEl.reset()
-
   } else {
 
     alert ("Sorry! This field requires only YouTube URL.")
   }
 
+  urlFormEl.reset()
 });
