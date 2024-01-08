@@ -5,16 +5,71 @@
     <link
       rel="icon"
       type="image/svg+xml"
-      href="/youtube-thumbnail-downloader-app/assets/ytu-logo-ytu-letter-ytu-letter-logo-design-initials-ytu-logo-linked-with-circle-and-uppercase-monogram-logo-ytu-typography-for-technology-business-and-real-estate-brand-vector-Phy0jiN4.jpg"
+      href="./assets/img/ytu-logo-ytu-letter-ytu-letter-logo-design-initials-ytu-logo-linked-with-circle-and-uppercase-monogram-logo-ytu-typography-for-technology-business-and-real-estate-brand-vector.jpg"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>YTU Thumbnail Downloader</title>
+    <title>Home | YTU Thumb</title>
 
-    <script type="module" crossorigin src="/youtube-thumbnail-downloader-app/assets/index-R2lZmBS9.js"></script>
-    <link rel="stylesheet" crossorigin href="/youtube-thumbnail-downloader-app/assets/index-_gddpXxj.css">
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <script type="module" crossorigin src="/youtube-thumbnail-downloader-app/assets/index-vLi06EYB.js"></script>
+    <link rel="stylesheet" crossorigin href="/youtube-thumbnail-downloader-app/assets/index-o-sCfvjP.css">
   </head>
-  <body>
-    <h1>Hello World</h1>
+  <body class="font-Sen bg-gradient-to-r from-[#0F1035] to-[#365486] relative">
+    <!-- Header -->
+    <header
+      class="bg-[#DCF2F1] flex items-center justify-between px-28 py-5 top-0 left-0 right-0"
+    >
+      <img
+        src="/youtube-thumbnail-downloader-app/assets/ytu-logo-ytu-letter-ytu-letter-logo-design-initials-ytu-logo-linked-with-circle-and-uppercase-monogram-logo-ytu-typography-for-technology-business-and-real-estate-brand-vector-WhC_wpZx.png"
+        class="w-[200px] h-[100px] object-cover rounded-xl cursor-pointer"
+        alt="YTU App Logo"
+      />
+
+      <!-- Need to give Git URL -->
+      <a
+        href="#"
+        class="bg-[#0F1035] text-[#DCF2F1] px-5 py-2 rounded-md hover:transition 500 hover:bg-[#3e3f5d]"
+        ><i class="fa-brands fa-github mr-2"></i>GitHub</a
+      >
+    </header>
+
+    <main class="mt-20">
+      <h1 class="text-[#DCF2F1] text-center text-5xl">Welcome to YTU</h1>
+
+      <p class="text-[#c6d9d8] text-center mt-4">
+        Plateform for get YouTube Thumbnail...
+      </p>
+
+      <!-- Input and Button -->
+      <div class="max-w-2xl mx-auto mt-20 flex flex-col items-center space-y-8">
+        <input
+          type="url"
+          class="w-full p-5 rounded-md outline-none"
+          name="youtube-url-input"
+          id="youtube-url-input"
+          placeholder="Enter the YouTube URL"
+          required
+        />
+        <button
+          class="bg-[#DCF2F1] px-5 py-2 w-36 rounded-md hover:bg-[#365486] hover:transition 500 hover:text-[#DCF2F1]"
+        >
+          Click
+        </button>
+      </div>
+
+      <!-- Thumbnail Viewer -->
+      <div class="mt-20">
+        <img
+          src="/youtube-thumbnail-downloader-app/assets/ytu-logo-ytu-letter-ytu-letter-logo-design-initials-ytu-logo-linked-with-circle-and-uppercase-monogram-logo-ytu-typography-for-technology-business-and-real-estate-brand-vector-WhC_wpZx.png"
+          class="w-[1000px] h-[500px] object-cover mx-auto"
+          alt=""
+        />
+      </div>
+    </main>
 
   </body>
 </html>
